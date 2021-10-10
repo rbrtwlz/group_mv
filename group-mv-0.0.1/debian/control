@@ -1,0 +1,13 @@
+Source: group-mv
+Maintainer: Robert Walz <robertwalz35@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/rbrtwlz/group_mv.git
+
+Package: python3-group-mv
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: program to archive files
+
