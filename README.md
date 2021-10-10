@@ -21,4 +21,5 @@ git clone https://github.com/rbrtwlz/group_mv
 cd group_mv/group-mv-0.0.1
 dpkg-buildpackage -b -uc -us
 sudo dpkg -i ../python3-group-mv_0.0.1-1_all.deb 
-group_mv --help```
+group_mv --help
+```
